@@ -1,0 +1,1 @@
+import{_ as a,Y as t,Z as r,a0 as e,a1 as s}from"./framework-957baa9a.js";const c={},n=e("h1",{id:"redis",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#redis","aria-hidden":"true"},"#"),s(" REDIS")],-1),d=[n];function o(_,i){return t(),r("div",null,d)}const l=a(c,[["render",o],["__file","index.html.vue"]]);export{l as default};

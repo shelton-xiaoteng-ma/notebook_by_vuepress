@@ -1,0 +1,9 @@
+import{_ as a,Y as e,Z as n,$ as t,a0 as s,a1 as c,a4 as r}from"./framework-957baa9a.js";const i={},l=s("h1",{id:"scrapy-stats",tabindex:"-1"},[s("a",{class:"header-anchor",href:"#scrapy-stats","aria-hidden":"true"},"#"),c(" [scrapy Stats]")],-1),p=s("blockquote",null,[s("p",null,"scrapy_redis合并日志指标, 通过redis合并后由另一个程序定期搜集")],-1),o=r(`<p>key: scrapy_stats:{bot_name}:{spider_name}_{batch_id}:{metric_key} value: str, int</p><p>一般推送指标间隔60s, 有效时间设置为interval*2, 如果长时间没有设置, 则清空, 避免kill 9后使key长期存在</p><h2 id="配置环境" tabindex="-1"><a class="header-anchor" href="#配置环境" aria-hidden="true">#</a> 配置环境</h2><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token comment"># 创建虚拟环境</span>
+python3 <span class="token parameter variable">-m</span> venv ~/projects/venvs/venv_learn_scrapy_29
+<span class="token builtin class-name">source</span> ~/projects/venvs/venv_learn_scrapy_29/bin/activate
+
+<span class="token comment"># 安装最新版本</span>
+python3 <span class="token parameter variable">-m</span> pip <span class="token function">install</span> scrapy
+<span class="token comment"># mac 需要配置环境变量</span>
+<span class="token builtin class-name">alias</span> <span class="token assign-left variable">scrapy</span><span class="token operator">=</span><span class="token string">&quot;~/projects/venvs/venv_learn_scrapy_29/bin/scrapy&quot;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,4);function d(v,m){return e(),n("div",null,[l,p,t(" more "),o])}const u=a(i,[["render",d],["__file","scrapy_stats.html.vue"]]);export{u as default};

@@ -1,0 +1,1 @@
+import{_ as a,Y as t,Z as n,a0 as e,a1 as c}from"./framework-957baa9a.js";const r={},s=e("h1",{id:"基本linux知识",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#基本linux知识","aria-hidden":"true"},"#"),c(" 基本linux知识")],-1),o=[s];function i(_,d){return t(),n("div",null,o)}const h=a(r,[["render",i],["__file","index.html.vue"]]);export{h as default};

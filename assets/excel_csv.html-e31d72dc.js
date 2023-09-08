@@ -1,0 +1,7 @@
+import{_ as e,Y as l,Z as s,a4 as i}from"./framework-957baa9a.js";const c={},n=i(`<h1 id="excel-和-csv" tabindex="-1"><a class="header-anchor" href="#excel-和-csv" aria-hidden="true">#</a> Excel 和 CSV</h1><ol><li><p>excel导出为csv</p><ol><li>文件 &gt; 另存为 &gt; 选择csv, utf-8</li><li>遇到excel是高精度的小数，导出csv自动截取了前面的数，办法： 数字前面加半角逗号， F4重复上一步</li></ol></li><li><p>csv导入到excel</p><ol><li>excel &gt; 文件 &gt; 导入 &gt; csv</li></ol></li><li><p>破解excel密码保护</p><ul><li><p>破解工作簿密码保护, 打开vba, 随便打开一个页面, 右键查看代码, 复制执行</p><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code>Sub sheet_visible<span class="token punctuation">(</span><span class="token punctuation">)</span>
+ActiveWorkbook.Sheets.Copy
+For Each <span class="token function">sh</span> In ActiveWorkbook.Sheets
+sh.Visible <span class="token operator">=</span> True
+Next
+End Sub
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li><li><p>破解工作表保护</p><ol><li>文件重命名为<code>.rar</code>, winrar打开</li><li>在<code>xl\\worksheets</code>目录下对<code>sheet1.xml</code>这样的文件查找<code>&lt;sheetProtection</code>, 将完整的元素删除</li><li>修改后缀名即可重新打开</li><li>修改时可以解压缩后重新打包, 可能受压缩参数影响重新压缩导致打不开, 所以最好修改个别文件后替换原有文件</li></ol></li></ul></li></ol>`,2),a=[n];function o(t,d){return l(),s("div",null,a)}const v=e(c,[["render",o],["__file","excel_csv.html.vue"]]);export{v as default};

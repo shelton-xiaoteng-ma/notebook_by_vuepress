@@ -1,0 +1,1 @@
+import{_ as a,Y as t,Z as s,a0 as e,a1 as c}from"./framework-957baa9a.js";const n={},r=e("h1",{id:"flask",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#flask","aria-hidden":"true"},"#"),c(" FLASK")],-1),o=[r];function _(d,i){return t(),s("div",null,o)}const f=a(n,[["render",_],["__file","index.html.vue"]]);export{f as default};

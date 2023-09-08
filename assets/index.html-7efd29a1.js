@@ -1,0 +1,1 @@
+import{_ as t,Y as a,Z as n,a0 as e,a1 as o}from"./framework-957baa9a.js";const c={},r=e("h1",{id:"python",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#python","aria-hidden":"true"},"#"),o(" Python")],-1),s=[r];function _(d,h){return a(),n("div",null,s)}const l=t(c,[["render",_],["__file","index.html.vue"]]);export{l as default};
