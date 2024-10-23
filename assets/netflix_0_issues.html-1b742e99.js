@@ -1,0 +1,1 @@
+import{_ as s,Y as t,Z as a,a0 as e,a1 as _}from"./framework-957baa9a.js";const c={},n=e("h1",{id:"issues",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#issues","aria-hidden":"true"},"#"),_(" Issues")],-1),r=[n];function i(o,d){return t(),a("div",null,r)}const u=s(c,[["render",i],["__file","netflix_0_issues.html.vue"]]);export{u as default};
